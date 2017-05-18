@@ -9,7 +9,7 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
 } from 'react-native';
 
 export default class StunningCam extends Component {
@@ -17,7 +17,7 @@ export default class StunningCam extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!<br>
+          Welcome to React Native!
           こんにちは🐸です
         </Text>
         <Text style={styles.instructions}>
@@ -27,6 +27,16 @@ export default class StunningCam extends Component {
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
+        <TouchableHighlight>
+          <Text style={styles.button}>
+            カメラロール
+          </Text>
+        </TouchableHighlight>
+        <TouchableHighlight>
+          <Text style={styles.button}>
+            カメラ
+          </Text>
+        </TouchableHighlight>
       </View>
     );
   }
@@ -49,6 +59,14 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
+  button: {
+    color: 'red',
+    height: 40,
+    padding: 10,
+    textAlign: 'center',
+    borderColor: 'red',
+    borderWidth: 3,
+  }
 });
 
 AppRegistry.registerComponent('StunningCam', () => StunningCam);
