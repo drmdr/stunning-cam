@@ -10,6 +10,7 @@ import {
   StyleSheet,
   Text,
   View,
+  TouchableHighlight
 } from 'react-native';
 
 export default class StunningCam extends Component {
@@ -63,6 +64,7 @@ const styles = StyleSheet.create({
     color: 'red',
     height: 40,
     padding: 10,
+    margin:10,
     textAlign: 'center',
     borderColor: 'red',
     borderWidth: 3,
