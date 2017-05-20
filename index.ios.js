@@ -30,12 +30,12 @@ export default class StunningCam extends Component {
         </Text>
         <TouchableHighlight>
           <Text style={styles.button}>
-            カメラロール
+            カメラロールを開く
           </Text>
         </TouchableHighlight>
         <TouchableHighlight>
           <Text style={styles.button}>
-            カメラ
+            カメラを起動
           </Text>
         </TouchableHighlight>
       </View>
