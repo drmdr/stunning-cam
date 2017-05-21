@@ -30,7 +30,7 @@ export default class StunningCam extends Component {
         </Text>
         <TouchableHighlight>
           <Text style={styles.button}>
-            カメラロール
+            カメラロールだだだだ
           </Text>
         </TouchableHighlight>
         <TouchableHighlight>
