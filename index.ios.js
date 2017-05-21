@@ -18,7 +18,7 @@ export default class StunningCam extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to React Nativeどどどす!
           こんにちは🐸です
         </Text>
         <Text style={styles.instructions}>
